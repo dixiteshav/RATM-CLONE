@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Layout</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <div class="header">
+        <img src="RATM-logo4.jpg" alt="Image 1" class="header-img">
+        <img src="185.jpg" alt="Image 2" class="header-img">
+        <img src="adimission123.jpg" alt="Image 3" class="header-img">
+    </div>
+    <div class="content">
+        <div class="left-content">
+            <div>
+                <marquee behaviour="alternate" direction="left">ADMISSION OPEN FOR BCA, BBA, MCA, MBA <p class="LC">(CONTACT:- 9997398811, 9548599486)</p></marquee>
+            </div>
+            <div><h3><u>Check Status</u></h3></div>
+            <div class="button-group" id="buttonGroup">
+                <a href="all/status/status.html" target="_self"><button>Teacher Status</button></a> 
+                <div class="vertical-line"></div>
+                <a href="all/status/status.html" target="_self"><button>Student Status</button></a>
+            </div>
+            <iframe id="contentFrame" src="" frameborder="0"></iframe>
+            <hr>
+            <div class="pp"><u>Placement Partner</u></div>
+            <!-- Image Slider -->
+            <div class="slider">
+                <div class="slider-track">
+                    <img src="https://ratm.in/image/logo/BAJAJ.jpg" alt="Image 1">
+                    <img src="https://ratm.in/image/logo/capital.jpg" alt="Image 2">
+                    <img src="https://ratm.in/image/logo/cocacola.jpg" alt="Image 3">
+                    <img src="https://ratm.in/image/logo/dell.jpg" alt="Image 4">
+                    <img src="https://ratm.in/image/logo/fisere.jpg" alt="Image 5">
+                    <!-- Duplicate images for seamless sliding effect -->
+                    <img src="https://ratm.in/image/logo/hcl.jpg" alt="Image 1">
+                    <img src="https://ratm.in/image/logo/OUT.jpg" alt="Image 2">
+                    <img src="https://ratm.in/image/logo/POLICY.jpg" alt="Image 3">
+                    <img src="https://ratm.in/image/logo/tcs.jpg" alt="Image 4">
+                    <img src="https://ratm.in/image/logo/wipro.jpg" alt="Image 5">
+                </div>
+            </div>
+        </div>
+        <div class="right-sidebar">
+            <a href="C:\Users\Lenovo\OneDrive\Desktop\all\status\check" target="_self"><button>Fees/Payment</button></a>
+            <a href="all/admission form/ad.html" target="_self"><button>Admission</button></a>
+            <a href="all/library/lib.html" target="_self"><button>Library</button></a>
+            <a href="all/canteen/can.html" target="_self"><button>Canteen</button></a>
+            <a href="all/event/about us.html" target="_self"><button>About Us</button></a>
+            <a href="all/contact/contact.html" target="_self"><button>Contact</button></a>
+        </div>
+    </div>
+
+    <!-- New Image Slider with Descriptions -->
+    <center>
+    <div class="slider" onmouseover="pauseSlide()" onmouseout="resumeSlide()">
+        <div class="slides">
+            <div class="slide">
+                <img src="https://ratm.in/image/ratmbanner11.webp" alt="Image 1">
+                <div class="description"><p>HIGHEST PACKAGE OF THIS BATCH</p></div>
+            </div>
+            <div class="slide">
+                <img src="https://ratm.in/image/ratmbanner-3.webp" alt="Image 2">
+                <div class="description">OUR COLLAGE MCA & MBA IS NO.1</div>
+            </div>
+            <div class="slide">
+                <img src="https://ratm.in/image/ratmbanner-1.webp" alt="Image 3">
+                <div class="description">OUR COLLAGE</div>
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+</center>
+    <script src="final .js"></script>
+</body>
+</html>
